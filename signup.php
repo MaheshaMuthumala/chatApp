@@ -80,9 +80,9 @@
             <button type="submit" name="sign_up" class="btn btn-primary btn-block btn-lg">Sign Up</button>
         </div>
 
-        <!-- <?php //include(signup_user.php) ?> -->
+        <?php include ("signup_user.php") ?>
     </form>
-    <div class="text-center small" style="color: ##ddeeee;">
+    <div class="text-center small" style="color: #ddeeee;">
         Already have an account? <a href="signin.php" style="color: #00cb82">Signin here</a>
     </div>
 </div>

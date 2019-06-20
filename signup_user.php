@@ -18,6 +18,7 @@
         if ($name==""){
             echo "<script>alert('We cannot verify your name')</script>";
         }
+
         if (strlen($pass)<8){
             echo "<script>alert('Password should be minimum 8 characters!')</script>";
             exit();
@@ -39,7 +40,18 @@
         elseif ($rand==2)
             $profile_pic ="images/avatar2.jpg";
 
-        $insert = "insert into users (user)";
+        $insert = "insert into users (user_name, user_pass, user_email, user_profile, user_country, user_gender) 
+                  values ('$name', '$pass', '$email', '$profile_pic', '$country', '$gender')";
+
+        $query = mysqli_query($con, $insert);
+
+        if ($query){
+            echo "<script>alert('Congratulations $name! Your account has been created successfully.')</script>";
+            echo "<script>window.open('signin.php', '_self')</script>";
+        }else{
+            echo "<script>alert('Registration failed! Try again.')</script>";
+            echo "<script>window.open('signup.php', '_self')</script>";
+        }
     }
 
 ?>
