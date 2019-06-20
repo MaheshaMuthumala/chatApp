@@ -1,12 +1,18 @@
 /**
  * Created by PhpStorm.
  * User: Maheshi
- * Date: 4/20/2019
- * Time: 10:13 PM
+ * Date: 6/20/2019
+ * Time: 4:29 PM
  */
+/**
+* Created by PhpStorm.
+* User: Maheshi
+* Date: 4/20/2019
+* Time: 10:13 PM
+*/
 <html>
 <head>
-    <title>Login to your account</title>
+    <title>Create new account</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -18,23 +24,27 @@
             integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
             integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <link rel="stylesheet" type="text/css" href="css/signin.css">
+    <link rel="stylesheet" type="text/css" href="css/signup.css">
 </head>
 
 <body>
-<div class="signin-form">
+<div class="signup-form">
     <form action="" method="post">
         <div class="form-header">
-            <h2>Sign In</h2>
-            <p>Login to My Chat</p>
+            <h2>Sign Up</h2>
+            <p>Fill out this form and start chating with your friends</p>
+        </div>
+        <div class="form-group">
+            <label>Username</label>
+            <input type="text" class="form-control" name="user_name" placeholder="username" autocomplete="off" required>
+        </div>
+        <div class="form-group">
+            <label>Password</label>
+            <input type="password" class="form-control" name="user_pass" placeholder="Password" autocomplete="off" required>
         </div>
         <div class="form-group">
             <label>Email</label>
             <input type="email" class="form-control" name="email" placeholder="someone@site.com" autocomplete="off" required>
-        </div>
-        <div class="form-group">
-            <label>Password</label>
-            <input type="password" class="form-control" name="pass" placeholder="Password" autocomplete="off" required>
         </div>
         <div class="small">Forgot password? <a href="forgot_pass.php">Click here</a></div><br>
         <div class="form-group">
