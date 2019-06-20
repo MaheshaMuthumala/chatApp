@@ -43,17 +43,48 @@
             <input type="password" class="form-control" name="user_pass" placeholder="Password" autocomplete="off" required>
         </div>
         <div class="form-group">
-            <label>Email</label>
-            <input type="email" class="form-control" name="email" placeholder="someone@site.com" autocomplete="off" required>
+            <label>Email Address</label>
+            <input type="email" class="form-control" name="user_email" placeholder="someone@site.com" autocomplete="off" required>
         </div>
-        <div class="small">Forgot password? <a href="forgot_pass.php">Click here</a></div><br>
         <div class="form-group">
-            <button type="submit" name="sign_in" class="btn btn-primary btn-block btn-lg">Sign In</button>
+            <label>Country</label>
+            <select class="form-control" name="user_country" required>
+                <option disabled="">Select a country</option>
+                <option>Sri Lanka</option>
+                <option>USA</option>
+                <option>UK</option>
+                <option>India</option>
+                <option>France</option>
+                <option>Germany</option>
+                <option>Australia</option>
+                <option>Canada</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label>Gender</label>
+            <select class="form-control" name="user_gender" required>
+                <option disabled="">Select your gender</option>
+                <option>Male</option>
+                <option>Female</option>
+                <option>Others</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label class="checkbox-inline">
+                <input type="checkbox" required>
+                I accept the <a href="#">Terms of use</a> &amp; <a href="#">privacy policy</a>
+            </label>
         </div>
 
-        <!-- <?php //include(signin_user.php) ?> -->
+        <div class="form-group">
+            <button type="submit" name="sign_up" class="btn btn-primary btn-block btn-lg">Sign Up</button>
+        </div>
+
+        <!-- <?php //include(signup_user.php) ?> -->
     </form>
-    <div class="text-center small" style="color: ##ddeeee;">Don't have an account? <a href="signup.php" style="color: #00cb82">Create one</a></div>
+    <div class="text-center small" style="color: ##ddeeee;">
+        Already have an account? <a href="signin.php" style="color: #00cb82">Signin here</a>
+    </div>
 </div>
 
 </body>
