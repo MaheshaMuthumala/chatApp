@@ -12,7 +12,7 @@
 */
 <html>
 <head>
-    <title>Create new account</title>
+    <title>Create a account</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -28,37 +28,78 @@
 </head>
 
 <body>
-<div class="signup-form">
+<div class="Register-form">
     <form action="" method="post">
         <div class="form-header">
-            <h2>Sign Up</h2>
-            <p>Fill out this form and start chating with your friends</p>
+            <h2>Register</h2>
+            <p>Fill out this form and chat with your friends</p>
         </div>
         <div class="form-group">
-            <label>Username</label>
-            <input type="text" class="form-control" name="user_name" placeholder="username" autocomplete="off" required>
+            <label>Userid</label>
+            <input type="text" class="form-control" name="user_id" placeholder="userid" autocomplete="off" required>
         </div>
         <div class="form-group">
             <label>Password</label>
             <input type="password" class="form-control" name="user_pass" placeholder="Password" autocomplete="off" required>
         </div>
         <div class="form-group">
-            <label>Email Address</label>
+            <label>Email</label>
             <input type="email" class="form-control" name="user_email" placeholder="someone@site.com" autocomplete="off" required>
         </div>
         <div class="form-group">
             <label>Country</label>
             <select class="form-control" name="user_country" required>
                 <option disabled="">Select a country</option>
-                <option>Sri Lanka</option>
-                <option>USA</option>
-                <option>UK</option>
-                <option>India</option>
-                <option>France</option>
-                <option>Germany</option>
-                <option>Australia</option>
+                <option>Afghanistana</option>
+                <option>Albania</option>
+                <option>Algeria</option>
+                <option>Andorra</option>
+                <option>Angola</option>
+                <option>Bahamas</option>
+                <option>Bahrain</option>
+                <option>Belgium</option>
+                <option> Brazil</option>
                 <option>Canada</option>
-            </select>
+                <option>Chile</option>
+                <option> China</option>
+                <option>Democratic Republic of the Congo</option>
+                <option>Denmark</option>
+                <option>Dominican Republic</option>
+                <option>Ecuador</option>
+                <option>Egypt</option>
+                <option>El Salvador</option>
+                <option>Ethiopia</option>
+                <option>Fiji</option>
+                <option>Finland</option>
+                <option>France</option>
+                <option>Gabon</option>
+                <option>Gambia</option>
+                <option>Georgia</option>
+                <option>Germany</option>
+                <option>Haiti</option>
+                <option>Honduras</option>
+                <option>Hungary</option>
+                <option>Iceland</option>
+                <option>India</option>
+                <option>Indonesia</option>
+                <option>Iraq</option>
+                <option>Ireland</option>
+                <option>Jamaica</option>
+                <option>Kazakhstan</option>
+                <option>Lebanon</option>
+                <option>Macedonia</option>
+                <option>Namibia</option>
+                <option>Oman</option>
+                <option>Qatar</option>
+                <option>Romania</option>
+                <option>Saint Kitts and Nevis</option>
+                <option>Tajikistan</option>
+                <option>Ukraine</option>
+                <option>Vanuatu</option>
+                <option>Yemen</option>
+                <option>Zambia</option>
+                <option>Pakistan</option>
+           </select>
         </div>
         <div class="form-group">
             <label>Gender</label>
